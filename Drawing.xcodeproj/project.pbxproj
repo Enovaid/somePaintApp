@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD6B08672524C79200635D73 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B08662524C79200635D73 /* Triangle.swift */; };
+		FD6B086C2524D5CF00635D73 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B086B2524D5CF00635D73 /* Line.swift */; };
+		FD6B08712524FAA100635D73 /* DrawingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B08702524FAA100635D73 /* DrawingLine.swift */; };
 		FD9A514825222F8C000C3899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A514725222F8C000C3899 /* AppDelegate.swift */; };
 		FD9A514A25222F8C000C3899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A514925222F8C000C3899 /* SceneDelegate.swift */; };
 		FD9A514C25222F8C000C3899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A514B25222F8C000C3899 /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 		FD9A515425222F8D000C3899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9A515225222F8D000C3899 /* LaunchScreen.storyboard */; };
 		FD9A515F25222F8D000C3899 /* DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A515E25222F8D000C3899 /* DrawingTests.swift */; };
 		FD9A516A25222F8D000C3899 /* DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A516925222F8D000C3899 /* DrawingUITests.swift */; };
+		FD9A517B25222FC5000C3899 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A517A25222FC5000C3899 /* CustomView.swift */; };
+		FD9A5180252231C4000C3899 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A517F252231C4000C3899 /* Circle.swift */; };
+		FD9A5185252231D0000C3899 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A5184252231D0000C3899 /* Rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD6B08662524C79200635D73 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		FD6B086B2524D5CF00635D73 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		FD6B08702524FAA100635D73 /* DrawingLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingLine.swift; sourceTree = "<group>"; };
 		FD9A514425222F8C000C3899 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9A514725222F8C000C3899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD9A514925222F8C000C3899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		FD9A516525222F8D000C3899 /* DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9A516925222F8D000C3899 /* DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingUITests.swift; sourceTree = "<group>"; };
 		FD9A516B25222F8D000C3899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9A517A25222FC5000C3899 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		FD9A517F252231C4000C3899 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		FD9A5184252231D0000C3899 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,12 @@
 		FD9A514625222F8C000C3899 /* Drawing */ = {
 			isa = PBXGroup;
 			children = (
-				FD9A514725222F8C000C3899 /* AppDelegate.swift */,
-				FD9A514925222F8C000C3899 /* SceneDelegate.swift */,
+				FD9A515525222F8D000C3899 /* Info.plist */,
+				FD9A518D252231FB000C3899 /* Supporting Files */,
+				FD9A517A25222FC5000C3899 /* CustomView.swift */,
 				FD9A514B25222F8C000C3899 /* ViewController.swift */,
 				FD9A514D25222F8C000C3899 /* Main.storyboard */,
-				FD9A515025222F8D000C3899 /* Assets.xcassets */,
-				FD9A515225222F8D000C3899 /* LaunchScreen.storyboard */,
-				FD9A515525222F8D000C3899 /* Info.plist */,
+				FD9A5189252231DC000C3899 /* Model */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -126,6 +137,29 @@
 				FD9A516B25222F8D000C3899 /* Info.plist */,
 			);
 			path = DrawingUITests;
+			sourceTree = "<group>";
+		};
+		FD9A5189252231DC000C3899 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A517F252231C4000C3899 /* Circle.swift */,
+				FD9A5184252231D0000C3899 /* Rectangle.swift */,
+				FD6B08662524C79200635D73 /* Triangle.swift */,
+				FD6B086B2524D5CF00635D73 /* Line.swift */,
+				FD6B08702524FAA100635D73 /* DrawingLine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD9A518D252231FB000C3899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A514925222F8C000C3899 /* SceneDelegate.swift */,
+				FD9A514725222F8C000C3899 /* AppDelegate.swift */,
+				FD9A515025222F8D000C3899 /* Assets.xcassets */,
+				FD9A515225222F8D000C3899 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9A5180252231C4000C3899 /* Circle.swift in Sources */,
 				FD9A514C25222F8C000C3899 /* ViewController.swift in Sources */,
+				FD9A517B25222FC5000C3899 /* CustomView.swift in Sources */,
+				FD6B08712524FAA100635D73 /* DrawingLine.swift in Sources */,
+				FD9A5185252231D0000C3899 /* Rectangle.swift in Sources */,
 				FD9A514825222F8C000C3899 /* AppDelegate.swift in Sources */,
+				FD6B086C2524D5CF00635D73 /* Line.swift in Sources */,
 				FD9A514A25222F8C000C3899 /* SceneDelegate.swift in Sources */,
+				FD6B08672524C79200635D73 /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
